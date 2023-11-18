@@ -11,6 +11,9 @@ https://qb64.com/
 you will just need to mess with 
 
 server$ = "irc.libera.chat"
+
 nick$ = "quickbasicIRC"
+
 channel$ = "##anime"
+
 client = _OpenClient("TCP/IP:6667:" + server$)
