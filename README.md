@@ -17,3 +17,6 @@ nick$ = "quickbasicIRC"
 channel$ = "##anime"
 
 client = _OpenClient("TCP/IP:6667:" + server$)
+
+to run the python program, just type
+python3 irc.py 
