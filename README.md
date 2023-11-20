@@ -12,7 +12,7 @@ you will just need to mess with
 
 server$ = "irc.libera.chat"
 
-nick$ = "quickbasicIRC"
+nick$ = "quickbasicIRC" REM  you can get rid of the random number if you choose your won nickname here
 
 channel$ = "##anime"
 
