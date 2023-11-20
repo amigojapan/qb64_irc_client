@@ -4,7 +4,7 @@ rn$ = Mid$(rn$, 2, Len(rn$))
 Print "Random nick QB64IRC" + rn$
 server$ = "irc.libera.chat"
 nick$ = "QB64IRC" + rn$
-channel$ = "##bottest"
+channel$ = "##anime"
 client = _OpenClient("TCP/IP:6667:" + server$)
 line$ = "nick " + nick$ + Chr$(10) + Chr$(13) + "user a a a a" + Chr$(10) + Chr$(13)
 Put #client, , line$: Sleep 2
