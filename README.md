@@ -1,7 +1,7 @@
 # qb64_irc_client
 
 linux binary available! just download it and run it!
-mac x86 binary provided by phigan(I have not tested it myself(I dont have a mac anymore))
+mac x86 and windows binaries provided by phigan form irc.libera .chat (who compiled on macOS　10.15.7 and test on 12.7.1) much appreciation!
 
 download QB64 and run it there if you run windows and mac
 (for now, I will eventually build a windows version)
