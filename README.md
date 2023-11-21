@@ -2,6 +2,7 @@
 
 linux binary available! just download it and run it!
 mac x86 and windows binaries provided by phigan (who compiled on macOS　10.15.7 and test on 12.7.1) much appreciation!
+
 windows binary is x86_64(64 bit windows only) it won"t run on 32 bit computers do to restrictions of QB64.
 
 download QB64 and run it and change the nickname and channel and network and port, see the following instructions:
