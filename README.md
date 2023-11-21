@@ -1,7 +1,7 @@
 # qb64_irc_client
 
 linux binary available! just download it and run it!
-mac x86 and windows binaries provided by phigan form (who compiled on macOS　10.15.7 and test on 12.7.1) much appreciation!
+mac x86 and windows binaries provided by phigan (who compiled on macOS　10.15.7 and test on 12.7.1) much appreciation!
 
 download QB64 and run it and change the nickname and channel and network and port, see the following instructions:
 
