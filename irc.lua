@@ -26,15 +26,9 @@ client:send(line)
 
 socket.sleep(2)
 
--- ... (previous code)
-
 buff = ""
 while true do
-    buff, err = client:receive(1)
-    if buff then
-        io.write(buff)
-    end
-
+    buff, err = client:receive(20)
     if buff and buff:find("^PING") then
         local s = buff:sub(5)
         line = "PONG\r\n"
@@ -43,6 +37,20 @@ while true do
 
         socket.sleep(2)
     end
+    if buff then
+        io.write(buff)
+
+        -- Check for PING message
+        local ping_message = buff:match("^PING :(.+)")
+        if ping_message then
+            print("PING received, responding with PONG")
+            line = "PONG :" .. ping_message .. "\r\n"
+            client:send(line)
+            socket.sleep(2)
+        end
+    end
+
+
     if not buff and err == "timeout" then
         -- No data available from the socket, handle input
         socket.sleep(0.05) -- 50ms delay (20 checks per second)
