@@ -20,5 +20,14 @@ channel$ = "##anime"
 
 client = _OpenClient("TCP/IP:6667:" + server$)
 
+install python3
 to run the python program, just type
 python3 irc.py 
+
+install lua
+sudo apt-get install lua
+sudo apt-get install luarocks
+sudo luarocks install luasocket
+sudo apt-get install lua-posix
+to run the python program, just type
+lua irc.lua 
